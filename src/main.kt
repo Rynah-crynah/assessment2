@@ -35,7 +35,7 @@ open class CurrentAccount(var accountNumber:String,var accountName:String,var ba
         println(balance)
     }
     fun details(){
-        println("Account number $accountNumber with balance $balance is operated by $accountName")
+        println("Account number $accountNumber with balance $balance from $accountName")
     }
 
 }
